@@ -22,7 +22,7 @@ Data visualization of information provided by Villagomez et al, 2011 (Geochronol
 
 <p align="center">
 <img src="CordillerasDiagrams/ree_spidergram.png" 
-height="80%"/>
+height="80%" width="80%"/>
 </p>
 <p align="center">
 	<em>Spidergram density plot of REE in samples given in table 5.</em>
