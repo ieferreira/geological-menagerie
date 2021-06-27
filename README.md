@@ -11,3 +11,7 @@ Paper by Rampino et al, 2021 (A pulse of the Earth: A 27.5-Myr underlying cycle 
 - CordillerasDiagrams
 
 Data visualization of information provided by Villagomez et al, 2011 (Geochronology, geochemistry and tectonic evolution of the Western and Central cordilleras of Colombia) who uses a complex hypothesis of terrane accretion to explain the present geological status of western Colombia.
+
+- RegressionDeposit
+
+Trying to reproduce Chung, 1980 application of regression analysis to VMS deposits in Newfoundland
