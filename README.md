@@ -10,7 +10,7 @@ Paper by Rampino et al, 2021 (A pulse of the Earth: A 27.5-Myr underlying cycle 
 
 <p align="center">
 <img src="PulsesEarth/cummulative_events.png" 
-height="80%"/>
+width="80%"/>
 </p>
 <p align="center">
 	<em>Cummulative events accross the geological Periods analyzed</em>
