@@ -1,4 +1,4 @@
-##Villagómez et al, 2011 - Geochronology, geochemistry and tectonic evolution of the Western and Central cordilleras of Colombia
+## Villagómez et al, 2011 - Geochronology, geochemistry and tectonic evolution of the Western and Central cordilleras of Colombia
 
 This papers makes a terrane-based hypothesis to explain the current geological status of Colombia's western and central Cordilleras.
 
@@ -7,7 +7,7 @@ This papers makes a terrane-based hypothesis to explain the current geological s
 height="80%"/>
 </p>
 <p align="center">
-	<em>Samples used in table 5 in the paper.</em>
+	<em>Samples location used in table 5 in the paper.</em>
 </p>
 
 
