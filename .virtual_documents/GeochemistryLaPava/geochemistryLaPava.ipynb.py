@@ -22,6 +22,7 @@ def clean_df(df):
     clean_df = clean_df.apply(lambda x: x.astype(str).str.replace(",", "."))
     clean_df = clean_df.apply(lambda x: x.astype(str).str.replace("<", "")) # Remove less than with empty space, :/
     clean_df = clean_df.replace('-', None)
+    clean_df = clean_df.apply(pd.to_numeric, errors='coerce')
     return clean_df
 
 
@@ -71,14 +72,19 @@ target = target.apply(lambda x: x[:2])
 
 
 
-target.unique()
+
+mapping = {'It': 0, 'Pa': 1, 'Tu':2}
+target.replace(mapping, inplace=True)
+
+
+type(svc_ann1[0][0])
 
 
 svc = SVC_pipeline(probability=True)
 gs = svc.fit(svc_ann1, target)
 
 
-fig, ax = plt.subplots(1, 2, figsize=(8, 4))
+fig, ax = plt.subplots(1, 2, figsize=(12, 4))
 
 a, tfm, mapped = plot_mapping(
     svc_ann1, gs.best_estimator_, ax=ax[1], s=50, init="pca"
@@ -91,9 +97,6 @@ ax[1].set_title("With Relative Certainty")
 for a in ax:
     a.set_xticks([])
     a.set_yticks([])
-
-
-
 
 
 
