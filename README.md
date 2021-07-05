@@ -30,4 +30,13 @@ height="80%" width="80%"/>
 
 - RegressionDeposit
 
-Trying to reproduce Chung, 1980 application of regression analysis to VMS deposits in Newfoundland
+Trying to reproduce Chung, 1980 application of regression analysis to VMS deposits in Newfoundland.
+
+
+- GeochemistryLaPava
+
+Trying to use data provided in annex 1 and 2 given by García et al, 2021.
+
+- SismosFallas
+
+Colombia's main faults visualization (from a shp provided by the SGC) with earthquakes [currently only faults]
